@@ -5,7 +5,13 @@ public class Coches {
     //atributos como la marca del coche su nombre su motor sus kilometros su año su cilindrada
     private String marca;
     private double km;
+    private int año;
+    private int cv;
+    private String motor;
+    private String nombre;
+    private int capacidad;
 
+    // constructor sin parametros
     public Coches() {
         String marca = "";
         double km = 0;
@@ -17,6 +23,7 @@ public class Coches {
 
     }
 
+    //constructor con parametros
     public Coches(String marca, double km, int año, int cv, String motor, String nombre, int capacidad) {
         this.marca = marca;
         this.km = km;
@@ -26,12 +33,8 @@ public class Coches {
         this.nombre = nombre;
         this.capacidad = capacidad;
     }
-    private int año;
-    private int cv;
-    private String motor;
-    private String nombre;
-    private int capacidad;
 
+    // setters
     public void setMarca(String marca) {
         this.marca = marca;
     }
@@ -59,6 +62,9 @@ public class Coches {
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
-    
-    public String diHola
+
+    // metodo diHola
+    public String diHola() {
+        return "Hola";
+    }
 }
