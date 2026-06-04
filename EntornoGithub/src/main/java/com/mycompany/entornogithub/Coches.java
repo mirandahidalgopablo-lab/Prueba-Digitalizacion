@@ -189,4 +189,8 @@ public class Coches {
     public String diHola() {
         return "Hola";
     }
+    
+    public int tumadre(){
+        return 999999+9999999;
+    }
 }
