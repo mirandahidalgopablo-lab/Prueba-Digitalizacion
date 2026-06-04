@@ -190,6 +190,8 @@ public class Coches {
         return "Hola";
     }
     
+    public String nuevoFuncionalidad() {
+        return "nuevo";
     public int tumadre(){
         return 999999+9999999;
     }
