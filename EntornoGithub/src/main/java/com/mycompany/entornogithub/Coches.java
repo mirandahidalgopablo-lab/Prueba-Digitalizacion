@@ -192,5 +192,7 @@ public class Coches {
     
     public String nuevoFuncionalidad() {
         return "nuevo";
+    public int tumadre(){
+        return 999999+9999999;
     }
 }
