@@ -189,4 +189,8 @@ public class Coches {
     public String diHola() {
         return "Hola";
     }
+    
+    public String nuevoFuncionalidad() {
+        return "nuevo";
+    }
 }
