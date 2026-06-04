@@ -63,6 +63,38 @@ public class Coches {
         this.capacidad = capacidad;
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public double getKm() {
+        return km;
+    }
+
+    public int getAño() {
+        return año;
+    }
+
+    public int getCv() {
+        return cv;
+    }
+
+    public String getMotor() {
+        return motor;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getCapacidad() {
+        return capacidad;
+    }
+    
+    public String diAdios(){
+        return "Adios";
+    }
+
     // metodo diHola
     public String diHola() {
         return "Hola";
