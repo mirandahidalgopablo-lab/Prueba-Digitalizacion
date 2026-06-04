@@ -1,5 +1,9 @@
 package com.mycompany.entornogithub;
 
+/**
+ *
+ * @author usuario
+ */
 public class Coches {
 
     //atributos como la marca del coche su nombre su motor sus kilometros su año su cilindrada
@@ -12,6 +16,10 @@ public class Coches {
     private int capacidad;
 
     // constructor sin parametros
+
+    /**
+     *
+     */
     public Coches() {
         String marca = "";
         double km = 0;
@@ -24,6 +32,17 @@ public class Coches {
     }
 
     //constructor con parametros
+
+    /**
+     *
+     * @param marca
+     * @param km
+     * @param año
+     * @param cv
+     * @param motor
+     * @param nombre
+     * @param capacidad
+     */
     public Coches(String marca, double km, int año, int cv, String motor, String nombre, int capacidad) {
         this.marca = marca;
         this.km = km;
@@ -35,70 +54,138 @@ public class Coches {
     }
 
     // setters
+
+    /**
+     *
+     * @param marca
+     */
     public void setMarca(String marca) {
         this.marca = marca;
     }
 
+    /**
+     *
+     * @param km
+     */
     public void setKm(double km) {
         this.km = km;
     }
 
+    /**
+     *
+     * @param año
+     */
     public void setAño(int año) {
         this.año = año;
     }
 
+    /**
+     *
+     * @param cv
+     */
     public void setCv(int cv) {
         this.cv = cv;
     }
 
+    /**
+     *
+     * @param motor
+     */
     public void setMotor(String motor) {
         this.motor = motor;
     }
 
+    /**
+     *
+     * @param nombre
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
+    /**
+     *
+     * @param capacidad
+     */
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
     
     
     //metodos getters
+
+    /**
+     *
+     * @return
+     */
     public String getMarca() {
         return marca;
     }
 
+    /**
+     *
+     * @return
+     */
     public double getKm() {
         return km;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getAño() {
         return año;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getCv() {
         return cv;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getMotor() {
         return motor;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getCapacidad() {
         return capacidad;
     }
     
     //metodo para decir adios
+
+    /**
+     *
+     * @return
+     */
     public String diAdios(){
         return "Adios";
     }
 
     // metodo diHola
+
+    /**
+     *
+     * @return
+     */
     public String diHola() {
         return "Hola";
     }
