@@ -62,7 +62,9 @@ public class Coches {
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
-
+    
+    
+    //metodos getters
     public String getMarca() {
         return marca;
     }
@@ -91,6 +93,7 @@ public class Coches {
         return capacidad;
     }
     
+    //metodo para decir adios
     public String diAdios(){
         return "Adios";
     }
